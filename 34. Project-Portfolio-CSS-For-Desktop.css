@@ -1,0 +1,392 @@
+/*font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Satisfy', cursive;*/
+
+/* for desktop */
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER SECTION START */
+
+.nav-section{
+    background-color: #0c6168;
+    padding: 0;
+}
+
+.nav-logo{
+    text-align: left;
+    padding-left: 60px;
+  
+   
+
+}
+
+.nav-title{
+    text-align:center;
+    margin: 25px 0;
+    
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content:center;
+    padding-right: 10px;
+  
+}
+.nav-menu a{
+   padding: 5px 10px;
+   margin: 35px 2px 0px 0px;
+   background-color: transparent;
+}
+
+/* HEADER SECTION END */
+
+
+/* MAIN SECTION START*/
+
+.main{
+    
+    padding: 190px 40px;
+    text-align: center;
+    position: relative;
+  
+   
+}
+
+.main-description h1{
+    font-size: 3.8rem;
+    font-family:'Open Sans', sans-serif;
+    color: #0c6168;
+    margin-top: -120px;
+   
+}
+
+.main .main-top-image{
+    position: absolute;
+    top:40px;
+    right: 100px;
+    width: 120px;
+    transition: width 2s transform 2s;
+  
+  }
+  
+  .main .main-top-image:hover{
+     width: 150px;
+     }
+
+     .main .main-bottom-image{
+        position: absolute;
+        bottom:40px;
+        left: 100px;
+        width: 120px;
+        transition: width 2s transform 2s;
+    
+       }
+    
+       .main .main-bottom-image:hover{
+        width: 150px;
+       }
+       
+       .main::after{
+        content: '';
+        clear: both;
+        display:table;
+    }
+
+    /* MAIN SECTION END */
+
+    
+    
+    
+    /* ABOUT ME SECTION START */
+
+    .about-me-section{
+        background-color:#40868b;
+        color: white;
+        
+    }
+    .about-me-section::after{
+        content:'';
+        clear:both;
+        display: table;
+    
+    }
+
+    .about-me-title{
+      padding:50px;
+      
+    }
+
+    .about-me-title h2{
+       
+        margin-bottom: 10px;
+    
+    }
+    
+    .about-me-hr{
+
+        margin: 0 auto;
+        width: 100px;
+       
+}
+
+    .about-me-image img{
+        width:250px;
+        height: 270px;
+        margin-top: 80px;
+        
+    }
+
+    .about-me-description p{
+      
+        text-align: left;
+        padding:12px;
+    
+    }
+
+    .about-me-description::after{
+       
+        content: '';
+        clear: both;
+        display: table;
+
+    }
+
+    .about-me-description{
+       
+        padding: 40px;
+       
+     }
+
+     hr{
+        width: 100%;
+        
+    }
+
+    .julia-madam{
+       
+        font-size: 1.1rem;
+        margin-top: 30px;
+        
+    }
+
+    
+     
+ /* ABOUT ME SECTION END */
+
+
+
+ 
+/* EDUCATION-WORK-SKILL SECTION START */
+
+ 
+.education-work-skill-section .card{
+    padding:30px;
+    
+}
+
+
+.card-title{
+ 
+    padding: 10px;
+   
+}
+
+
+.card-description{
+
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+/* clearing both div */
+.education-work-skill-section::after{
+
+    content:'';
+    clear: both;
+    display: table;
+}
+
+/* EDUCATION-WORK-SKILL SECTION END */
+
+
+
+/* ACHIVEMENTS-CONTACT-CONTACTLINKS SECTION START */
+
+
+/* achivements column css*/
+
+.achivements{
+    color:white;
+    padding: 2% 1%;
+    
+}
+
+.achivements-title{
+
+   margin-bottom: 15px;
+}
+
+.dotted-hr{
+
+    width:15%;
+    margin-bottom: 20px;
+
+   
+}
+
+.achivements-description p{
+    font-size: 1.3rem;
+    margin: 10px;
+    padding:5px;
+}
+
+
+/* contact column css */
+
+.contact{
+    padding: 2% 1%;
+    
+   
+}
+
+.contact-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.contact-hr{
+    width: 75px;
+    margin-bottom: 30px;
+}
+
+.contact-description input,textarea{
+    padding: 10px;
+    margin:10px;
+    
+ 
+}
+
+.contact-description button{
+    width:150px;
+}
+
+.achivements-contact-contactlinks-section::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+
+
+/* contactlinks column css*/
+
+
+.contactlinks{
+
+    padding: 3% 1%;
+    text-align: right;
+    position: relative;
+   
+}
+
+
+.contactlinks-title h2{
+
+    text-align:right;
+    margin-top: -18px;
+
+}
+
+
+.contactlinks-hr{
+
+    
+    width: 78px;
+    border: 5px dotted white;
+    border-bottom: none;
+    margin-top: 16px;
+    text-align:right;
+    margin-right: 120px;
+    
+    
+}
+
+.contactlinks-icon{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: 30px;
+    margin-right: 140px;
+    
+}
+
+
+.contactlinks-icon .btn{
+    width: 50px;
+    font-size: 32px;
+    border: none;
+    border-radius: 25px;
+    padding:5px;
+    margin: 10px;
+    cursor: pointer;
+   
+
+}
+
+
+
+
+
+
+
+.achivements-contact-contactlinks-section::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+/* ACHIVEMENTS-CONTACT-CONTACTLINKS SECTION END */
+
+
+
+/* FOOTER SECTION START*/
+
+
+/* FOOTER SECTION END*/
+
+
+
+
+
+
+
+
+
+
+
